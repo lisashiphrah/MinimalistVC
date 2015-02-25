@@ -1,0 +1,370 @@
+body
+{
+	background: #ccc;
+	overflow: auto;
+	font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	color: #232323;
+}
+
+	body ul
+	{
+		list-style: none;
+		margin-left: -30px;
+	}
+
+
+.lightboxItem
+{
+    margin: 5px;
+    display:inline-block;
+    text-align:center;
+    text-decoration:none;
+	color:#232323;
+}
+
+.lightboxItem img
+{
+    border: 5px solid #fff;
+    width:190px;
+    height:190px;
+}
+
+#content
+{
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 150px;
+	margin-bottom:150px;
+}
+
+#content > div {
+    width:670px;
+    display:inline-block;
+}
+
+.profileContent, .resumeContent, .portifolioContent, .contactContent
+{
+	border: 8px solid #fff;
+	background: #eaeaea;
+	border-radius: 5px;
+	width:670px;
+    min-height:230px;
+	display: inline-block;
+	padding: 30px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+    float:left;
+}
+
+.profileContent
+{
+    height: 230px;
+}
+
+	.profileContent ul li
+	{
+		padding: 10px;
+	}
+
+		.profileContent ul li label
+		{
+			display: inline-block;
+			width: 70px;
+			font-weight: bold;
+		}
+
+.contentMenu
+{
+	background: #232323;
+	border-radius: 5px;
+	padding: 0px;
+	width: 50px;
+	float:right;
+	display:inline;
+	cursor: pointer;
+	margin-top:-3px;
+}
+
+	.contentMenu li
+	{
+		text-align: center;
+		padding: 24px 0px;
+		-webkit-transition: all 0.15s ease-in-out;
+		-moz-transition: all 0.15s ease-in-out;
+		-o-transition: all 0.15s ease-in-out;
+		-ms-transition: all 0.15s ease-in-out;
+	}
+
+.profilePicture
+{
+	width: 150px;
+	border: 5px solid #fff;
+}
+
+.profileText
+{
+	display: inline-block;
+	float: right;
+	width: 150px;
+	font-style: italic;
+	margin-top: 15px;
+}
+
+.profileData
+{
+	width: 280px!important;
+	margin-left: 60px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.profileContent div, .resumeContent div, .contactContent div
+{
+	width: 330px;
+	float: left;
+	display: inline-block;
+}
+
+.divSkills
+{
+	width: 280px!important;
+	margin-left: 60px;
+    margin-top:15px;
+}
+
+
+.divisor
+{
+	width: 5px!important;
+	margin-left: 40px;
+	height: 230px;
+    position:absolute;
+	background: #232323;
+}
+
+#divNameFunction
+{
+	margin-top: 10px;
+}
+
+	#divNameFunction label
+	{
+		font-size: 35px;
+		font-weight: 900;
+		display: block;
+	}
+
+	#divNameFunction span
+	{
+		display: block;
+		font-style: italic;
+	}
+
+.italic
+{
+	display: block;
+	font-style: italic;
+}
+
+.bold
+{
+	font-weight:bold;
+	font-size:18px;
+}
+
+.right
+{
+	float:right;
+}
+
+.divHeader
+{
+	margin: 30px 0px;
+	border-bottom:1px solid #232323;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.companyIdentification
+{
+	display:inline-block;
+	width:200px!important;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+.userJob
+{
+	margin:10px 0px;
+}
+
+.skillsIdentification
+{
+	display:inline-block;
+	margin-left:15px;
+	margin-right:10px;
+	margin-top:5px;
+}
+
+.divHeaderSkill
+{
+	margin-bottom: 30px;
+	border-bottom:1px solid #232323;
+	font-weight:bold;
+	font-size:20px;
+	width:280px!important;
+}
+
+.userSkill
+{
+	margin:10px 0px;
+	width:280px!important;
+}
+
+	.userSkill div
+	{
+		width:280px!important;
+	}
+
+.body
+{
+	margin:10px 0px;
+}
+
+#sendButton {
+    color:white;
+    background:#0c0c0c;
+    border-radius:5px;
+    border:none;
+    width: 324px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.sendButton-green:hover {
+    color:#000!important;
+    background:#65cc57!important;
+    font-weight:bold;
+}
+
+.sendButton-blue:hover {
+    color:#000!important;
+    background:#04a99f!important;
+    font-weight:bold;
+}
+
+.sendButton-red:hover {
+    color:#000!important;
+    background:#9b161e!important;
+    font-weight:bold;
+}
+
+.sendButton-pink:hover {
+    color:#000!important;
+    background:#d169c3!important;
+    font-weight:bold;
+}
+
+.sendButton-gold:hover {
+    color:#000!important;
+    background:#9b8416!important;
+    font-weight:bold;
+}
+
+.sendButton-purple:hover {
+    color:#000!important;
+    background:#a454ff!important;
+    font-weight:bold;
+}
+
+input[type="text"], textarea
+{
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    width:300px;
+    max-width:300px;
+    max-height:200px;
+}
+
+.clearBoth {
+    clear:both!important;
+    float:none!important;
+    width:600px;
+}
+
+.contactContent table {
+   margin-left:50px;
+}
+
+.contactContent table tr td img {
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    padding: 0px 5px 10px 30px;
+}
+
+.contactContent table tr td label {
+    display:inline-block;
+    padding: 0px 5px 10px 0px;
+    cursor:pointer;
+}
+
+/********************************* COLOR CLASSES ***************************************/
+
+.background-default, #black
+{
+	background: #232323;
+}
+
+.background-green, #green
+{
+	background: #65cc57;
+}
+
+.background-blue, #blue
+{
+	background: #04a99f;
+}
+
+.background-red, #red
+{
+	background: #9b161e;
+}
+
+.background-pink, #pink
+{
+	background: #d169c3;
+}
+
+.background-gold, #gold
+{
+	background: #9b8416;
+}
+
+.background-purple, #purple
+{
+	background: #a454ff;
+}
+
+#black, #green, #blue, #red, #pink, #gold, #purple {
+    width:20px;
+    height:20px;
+    border:2px solid #fff;
+    margin:20px;
+    cursor:pointer;
+}
+
+.themes {
+    position:fixed;
+    top:0px;
+    left:10px;
+    background:#232323;
+}
+
