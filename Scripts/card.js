@@ -5,7 +5,7 @@ Description: This javascripts contains all the functions needed to make this pag
 
 ********************************************************************************************/
 
-//Change here with the name from the choosed color
+//Modify this line to change colors
 var colorClass = "green";
 
 
