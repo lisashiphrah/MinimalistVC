@@ -3,15 +3,15 @@
 This is just a draft of a Modern and Clean Personal Template.
 Please, fell free to download and make the changes you wish.
 
-#A) HTML Structure 
+#A) Project Structure 
 
-This theme is composed by several divisors, and a menu. Each divisor corresponds to an item of the menu. The code is full of comments, helping the user to customize it.
+This theme is composed by several divisors components, and a menu. Each divisor corresponds to a different menu item. The code is fully commented, helping the user to customize it.
 
-To change the color from the template to one in our pallet, you need just to change the first line of your 'card.js' file.
+The theme offers you 7 different colors to customize your template. Those colors can be black, green, blue, red, pink, gold or purple.
 
-Where it is written var colorClass = "green"; you can change for default, red, blue, green, purple, pink or gold.
+To change the template color by other in the pallet, you need just to edit the first line of your 'card.js' file, overwriting "green"by the desired color.
 
-#B) CSS Files and Structure
+#B) CSS
 
 I'm using one CSS file in this theme. This file contains some general styling, such as font-sizes, background colors, etc.
 
