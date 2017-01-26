@@ -1,6 +1,7 @@
 body
 {
 	background: rgba(234, 234, 234, 0.67);
+	background-image: url("http://www.pixeden.com/media/k2/galleries/93/004-subtle-light-pattern-background-texture.jpg");
 	overflow: auto;
 	font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 13px;
