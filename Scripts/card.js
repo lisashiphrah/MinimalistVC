@@ -1,6 +1,6 @@
 /********************************************************************************************
 
-Author: Cassia Zottis
+Author: Cassia Almeida
 Description: This javascripts contains all the functions needed to make this page works.
 
 ********************************************************************************************/
