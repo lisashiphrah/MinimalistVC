@@ -1,6 +1,6 @@
 body
 {
-	background: #ccc;
+	background: rgba(234, 234, 234, 0.67);
 	overflow: auto;
 	font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 13px;
