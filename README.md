@@ -1,7 +1,6 @@
 # MinimalistVC - Modern and Clean Personal Template
 
-This is just a draft of a Modern and Clean Personal Template.
-Please, fell free to download and make the changes you wish.
+MinimalistVC is a simple and clean personal template to show your skills, qualifications and projects. Fell free to download and make the changes you wish.
 
 #A) Project Structure 
 
